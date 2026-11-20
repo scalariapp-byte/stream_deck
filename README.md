@@ -76,15 +76,28 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\
 
 ## Utilisation
 
-Sur le téléphone :
+Au premier lancement, l'appli affiche des explications en 4 étapes. Pour les revoir, fais un appui long sur le logo, puis choisis « Revoir les explications ».
+
+### Raccourcis cachés du logo
+
+Le **logo aux 6 carrés**, en haut à gauche de l'écran (au-dessus des catégories), donne accès aux pages cachées :
+
+| Appuis sur le logo | Page qui s'ouvre |
+|---|---|
+| **1 appui** | **Performances du PC** : CPU, GPU, RAM, mémoire vidéo, réseau, ping, FPS. Appuie sur une case pour voir ses détails et sa courbe. |
+| **2 appuis rapides** | **Composants du PC** : carte graphique, processeur, mémoire, carte mère, disques, réseau, système. |
+| **3 appuis rapides** | **Ajouter ou retirer des apps** : la liste des apps du PC. Appuie sur une app pour l'ajouter au Deck, rappuie pour la retirer. |
+| **1 appui depuis une de ces pages** | Retour aux boutons |
+
+Les apps ne se retirent que depuis la page « Ajouter » (3 appuis).
+
+### Boutons
 
 | Geste | Effet |
 |---|---|
-| Appui sur un bouton | Lance l'app, ou la ferme si elle est déjà ouverte (pastille verte) |
-| Appui long sur un bouton | Mode édition : glisse les boutons pour les ranger |
-| 1 appui sur le logo | Performances du PC |
-| 2 appuis sur le logo | Composants du PC |
-| 3 appuis sur le logo | Ajouter ou retirer des apps |
+| Appui sur un bouton | Lance l'app au moment où tu retires le doigt |
+| Rappui sur une app ouverte (pastille verte) | Ferme l'app. Si du travail n'est pas enregistré, l'app te le demande sur le PC. |
+| Appui long sur un bouton | Mode édition : glisse les boutons pour les ranger, puis appuie sur « Terminé » |
 
 ## Modifier les boutons à la main
 
