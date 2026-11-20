@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Deck" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <!-- Empeche MIUI d'inverser les couleurs en mode sombre. -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>
