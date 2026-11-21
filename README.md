@@ -14,7 +14,7 @@ Par MyBlackWhite.
 - Montre les composants du PC : carte graphique, processeur, mémoire, carte mère, disques et réseau.
 - Se reconnecte tout seul dès que le PC ou le téléphone s'allume.
 
-Le téléphone devient l'écran d'accueil (launcher) : il n'affiche que le Deck.
+Le téléphone devient l'écran d'accueil (launcher) : il n'affiche que le Deck, **en plein écran**. Les barres d'Android sont cachées, y compris la notification « Débogage USB » qui reste sinon affichée en permanence.
 
 ## Ce qu'il faut
 
@@ -88,6 +88,9 @@ Le **logo aux 6 carrés**, en haut à gauche de l'écran (au-dessus des catégor
 | **2 appuis rapides** | **Composants du PC** : carte graphique, processeur, mémoire, carte mère, disques, réseau, système. |
 | **3 appuis rapides** | **Ajouter ou retirer des apps** : la liste des apps du PC. Appuie sur une app pour l'ajouter au Deck, rappuie pour la retirer. |
 | **1 appui depuis une de ces pages** | Retour aux boutons |
+| **Appui long** | Menu : revoir les explications, recharger les boutons, paramètres du téléphone, changer d'écran d'accueil |
+
+Le Deck est en plein écran : la barre du haut est cachée. Pour les notifications et la luminosité, glisse du haut de l'écran vers le bas. La barre revient un moment, puis se cache toute seule.
 
 Les apps ne se retirent que depuis la page « Ajouter » (3 appuis).
 
@@ -125,3 +128,4 @@ Le serveur PowerShell (`pc/deck-serveur.ps1`) écoute sur `localhost:8765`. Il f
 - **Le téléphone affiche « PC déconnecté ».** Vérifie que le serveur tourne et que `adb devices` montre le téléphone avec l'état `device`. Si le téléphone affiche une fenêtre « Autoriser le débogage USB ? », accepte-la.
 - **Pas de températures.** LibreHardwareMonitor doit tourner en administrateur avec le serveur web sur le port 8085.
 - **FPS à 0.** Il faut AMD Adrenalin, et un jeu au premier plan.
+- **La notification « Débogage USB connecté » ne part pas.** Depuis Android 11, on ne peut pas la désactiver, et le Deck a besoin du débogage USB pour parler au PC. Le Deck la cache en s'affichant en plein écran. Elle ne réapparaît que dans les autres apps ou quand tu glisses depuis le haut.
